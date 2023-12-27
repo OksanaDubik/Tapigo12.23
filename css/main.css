@@ -1,0 +1,291 @@
+@import url(normalize.css);
+
+body {
+    max-width: 1440px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    line-height: 100%;
+    color: #1A171B;
+    background: #d7d6d6;
+    box-sizing: border-box;
+}
+
+section {
+    height: 1024px;
+    padding: 78px 0 0 155px;
+    background: #fff;
+}
+
+h2, h3 {
+    font-size: 101px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #BAB9BA;
+}
+
+h3 {
+    letter-spacing: 1.01px;
+}
+
+h4 {
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -0.7px;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 23px;
+    font-weight: 900;
+    letter-spacing: -0.23px;
+}
+
+em {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+li {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+.competitors__text {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 115%;
+}
+
+.numbers__text {
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: -0.21px;
+    margin-top: -30px;
+}
+
+.numbers__tagline-head p {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.24px;
+}
+
+.numbers__tagline-content p {
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: -0.32px;
+}
+
+.numbers__tagline-bottom p {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: -0.24px;
+}
+
+.ecosystem li a {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 106%; /* 22.26px */
+    letter-spacing: -0.21px;
+}
+
+/*section market*/
+.market {
+    padding: 78px 0 0 0;
+}
+
+.market h2 {
+    margin-left: 155px;
+}
+
+.market__content {
+    margin-top: 327px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+
+}
+
+.market__card {
+    margin-left: 155px;
+    padding-bottom: 98px;
+}
+
+.market__card-text {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 16px;
+    margin-bottom: -98px;
+}
+
+.market__card-text h4 {
+    margin-right: 15px;
+}
+
+.card {
+    padding-left: 155px;
+    height: 314px;
+    align-items: center;
+    background: #EBEBEC;
+    display: flex;
+}
+
+.card i {
+    font-size: 30px;
+}
+
+.card-main {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    margin-left: 25px;
+    margin-bottom: -30px;
+}
+
+/* section competitors*/
+.competitors {
+    height: 874px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.competitors__content ul {
+    display: flex;
+    margin-left: -40px;
+    margin-bottom: 215px;
+}
+
+.competitors__content li {
+    padding-right: 15px;
+}
+
+article {
+    width: 70%;
+}
+
+.red__circle {
+    margin-left: 74%;
+    margin-top: -168px;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 167px;
+    border-color: #db473b transparent transparent #db473b;
+}
+
+/*section class="numbers"*/
+.numbers {
+    padding-bottom: 92px;
+}
+
+.numbers__content {
+    margin-top: 100px;
+    margin-bottom: 92px;
+    writing-mode: vertical-lr;
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.numbers__content ul, .numbers__tagline {
+    writing-mode: horizontal-tb;
+}
+
+.numbers__content ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 900px;
+    margin-left: -35px;
+}
+
+.numbers__content ul li {
+    margin-bottom: 83px;
+}
+
+.numbers__content ul li:last-child {
+    margin-left: 84px;
+}
+
+.numbers__tagline {
+    margin-top: 28%;
+    margin-left: 84px;
+    height: 341px;
+    background: #EEE;
+    padding: 155px 63px 50px 113px;
+    width: max-content;
+}
+
+.numbers__tagline-content {
+    display: flex;
+    align-items: baseline;
+    margin: -70px 0 -70px 0;
+}
+
+.numbers__tagline-content h3 {
+    margin-right: 41px;
+}
+
+/*section class="ecosystem"*/
+.ecosystem {
+    height: auto;
+}
+
+.ecosystem__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecosystem__chart {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ecosystem__chart-min {
+    display: flex;
+    align-items: center;
+}
+
+.ecosystem__chart-blueCircle {
+    background: #377dc2;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    margin-right: 7px;
+}
+
+.ecosystem__chart-max {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 50px solid #377dc2;
+    box-sizing: border-box;
+    padding: 12% 50px 12% 50px;
+    margin-left: 84px;
+}
+
+.ecosystem__content nav {
+    width: 45%;
+    background: #EEE;
+    height: 826px;
+    padding: 88px 78px 50px 78px;
+}
+
+.ecosystem__content nav li {
+    padding-bottom: 38px;
+}
+
